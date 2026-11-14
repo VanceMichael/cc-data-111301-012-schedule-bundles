@@ -1,0 +1,139 @@
+{
+  "bytes": 1347,
+  "current": false,
+  "facts": {
+    "agency_ids": [
+      "a"
+    ],
+    "empty_fields": {
+      "stops.txt": {
+        "parent_station": 1
+      }
+    },
+    "files": [
+      "agency.txt",
+      "calendar_dates.txt",
+      "frequencies.txt",
+      "routes.txt",
+      "stop_times.txt",
+      "stops.txt",
+      "trips.txt"
+    ],
+    "frequency_trip_ids": [
+      "t1"
+    ],
+    "parent_stations": {
+      "platform": "station"
+    },
+    "route_ids": [
+      "r1"
+    ],
+    "service_ids": [
+      "holiday"
+    ],
+    "stop_ids": [
+      "platform",
+      "station"
+    ],
+    "trip_ids": [
+      "t1"
+    ]
+  },
+  "files": [
+    {
+      "bytes": 102,
+      "columns": [
+        "agency_id",
+        "agency_name",
+        "agency_url",
+        "agency_timezone"
+      ],
+      "file": "agency.txt",
+      "rows": 1,
+      "sha256": "0f53aa7e2295b6523ade622c67c9de1ddf98af4de389e988af2e1c17a7afb95e"
+    },
+    {
+      "bytes": 50,
+      "columns": [
+        "service_id",
+        "date",
+        "exception_type"
+      ],
+      "file": "calendar_dates.txt",
+      "rows": 1,
+      "sha256": "421d441a32e4e4540e24b09cc38e3a6c4546446c0537eb906f50b97bc16a25ac"
+    },
+    {
+      "bytes": 80,
+      "columns": [
+        "trip_id",
+        "start_time",
+        "end_time",
+        "headway_secs",
+        "exact_times"
+      ],
+      "file": "frequencies.txt",
+      "rows": 1,
+      "sha256": "01c4bf83f52ebe4d990beff6c88265d633c37ba23a85657cb7dcca04a59e2552"
+    },
+    {
+      "bytes": 85,
+      "columns": [
+        "route_id",
+        "agency_id",
+        "route_short_name",
+        "route_long_name",
+        "route_type"
+      ],
+      "file": "routes.txt",
+      "rows": 1,
+      "sha256": "c79c203bdd71fcf2178e8949097ee2d8e7e4b61df054aec3e7fd8b3ed847ad02"
+    },
+    {
+      "bytes": 120,
+      "columns": [
+        "trip_id",
+        "arrival_time",
+        "departure_time",
+        "stop_id",
+        "stop_sequence",
+        "pickup_type",
+        "drop_off_type"
+      ],
+      "file": "stop_times.txt",
+      "rows": 1,
+      "sha256": "4b728667bb2b43e8beb16662291bb8dd8a2006b206874ffe5b631c8e78639229"
+    },
+    {
+      "bytes": 129,
+      "columns": [
+        "stop_id",
+        "stop_name",
+        "stop_lat",
+        "stop_lon",
+        "location_type",
+        "parent_station"
+      ],
+      "file": "stops.txt",
+      "rows": 2,
+      "sha256": "065f1115f13f1f940e27a29f3bd4aa3bb4a1a0c1ebf5f269e6f63b36b6139421"
+    },
+    {
+      "bytes": 57,
+      "columns": [
+        "route_id",
+        "service_id",
+        "trip_id",
+        "direction_id"
+      ],
+      "file": "trips.txt",
+      "rows": 1,
+      "sha256": "469e6eebb93628f7531861bdc85e27b67109e22a0ff05d48372cbc71e6685d07"
+    }
+  ],
+  "format": "schedule-bundles-publication-v1",
+  "publication_id": "cf3f0f84a8319ff6574456c8046d8f6004a8104083d5aa50291a9017adf33309",
+  "registered_at": "2026-11-14T09:37:08+00:00",
+  "sha256": "cf3f0f84a8319ff6574456c8046d8f6004a8104083d5aa50291a9017adf33309",
+  "source": "publish-1.zip"
+}

@@ -1,0 +1,174 @@
+{
+  "publication_id": "cf3f0f84a8319ff6574456c8046d8f6004a8104083d5aa50291a9017adf33309",
+  "tables": {
+    "agency.txt": {
+      "columns": [
+        "agency_id",
+        "agency_name",
+        "agency_url",
+        "agency_timezone"
+      ],
+      "member": "agency.txt",
+      "name": "agency.txt",
+      "rows": [
+        {
+          "_file": "agency.txt",
+          "_line": 2,
+          "agency_id": "a",
+          "agency_name": "虚构公交",
+          "agency_timezone": "Asia/Shanghai",
+          "agency_url": "https://example.invalid"
+        }
+      ],
+      "sha256": "0f53aa7e2295b6523ade622c67c9de1ddf98af4de389e988af2e1c17a7afb95e"
+    },
+    "calendar_dates.txt": {
+      "columns": [
+        "service_id",
+        "date",
+        "exception_type"
+      ],
+      "member": "calendar_dates.txt",
+      "name": "calendar_dates.txt",
+      "rows": [
+        {
+          "_file": "calendar_dates.txt",
+          "_line": 2,
+          "date": "20261113",
+          "exception_type": "1",
+          "service_id": "holiday"
+        }
+      ],
+      "sha256": "421d441a32e4e4540e24b09cc38e3a6c4546446c0537eb906f50b97bc16a25ac"
+    },
+    "frequencies.txt": {
+      "columns": [
+        "trip_id",
+        "start_time",
+        "end_time",
+        "headway_secs",
+        "exact_times"
+      ],
+      "member": "frequencies.txt",
+      "name": "frequencies.txt",
+      "rows": [
+        {
+          "_file": "frequencies.txt",
+          "_line": 2,
+          "end_time": "27:00:00",
+          "exact_times": "0",
+          "headway_secs": "600",
+          "start_time": "24:00:00",
+          "trip_id": "t1"
+        }
+      ],
+      "sha256": "01c4bf83f52ebe4d990beff6c88265d633c37ba23a85657cb7dcca04a59e2552"
+    },
+    "routes.txt": {
+      "columns": [
+        "route_id",
+        "agency_id",
+        "route_short_name",
+        "route_long_name",
+        "route_type"
+      ],
+      "member": "routes.txt",
+      "name": "routes.txt",
+      "rows": [
+        {
+          "_file": "routes.txt",
+          "_line": 2,
+          "agency_id": "a",
+          "route_id": "r1",
+          "route_long_name": "演练夜班",
+          "route_short_name": "1",
+          "route_type": "3"
+        }
+      ],
+      "sha256": "c79c203bdd71fcf2178e8949097ee2d8e7e4b61df054aec3e7fd8b3ed847ad02"
+    },
+    "stop_times.txt": {
+      "columns": [
+        "trip_id",
+        "arrival_time",
+        "departure_time",
+        "stop_id",
+        "stop_sequence",
+        "pickup_type",
+        "drop_off_type"
+      ],
+      "member": "stop_times.txt",
+      "name": "stop_times.txt",
+      "rows": [
+        {
+          "_file": "stop_times.txt",
+          "_line": 2,
+          "arrival_time": "25:10:00",
+          "departure_time": "25:10:00",
+          "drop_off_type": "0",
+          "pickup_type": "0",
+          "stop_id": "platform",
+          "stop_sequence": "1",
+          "trip_id": "t1"
+        }
+      ],
+      "sha256": "4b728667bb2b43e8beb16662291bb8dd8a2006b206874ffe5b631c8e78639229"
+    },
+    "stops.txt": {
+      "columns": [
+        "stop_id",
+        "stop_name",
+        "stop_lat",
+        "stop_lon",
+        "location_type",
+        "parent_station"
+      ],
+      "member": "stops.txt",
+      "name": "stops.txt",
+      "rows": [
+        {
+          "_file": "stops.txt",
+          "_line": 2,
+          "location_type": "1",
+          "parent_station": "",
+          "stop_id": "station",
+          "stop_lat": "30",
+          "stop_lon": "120",
+          "stop_name": "总站"
+        },
+        {
+          "_file": "stops.txt",
+          "_line": 3,
+          "location_type": "0",
+          "parent_station": "station",
+          "stop_id": "platform",
+          "stop_lat": "30",
+          "stop_lon": "120",
+          "stop_name": "一号站台"
+        }
+      ],
+      "sha256": "065f1115f13f1f940e27a29f3bd4aa3bb4a1a0c1ebf5f269e6f63b36b6139421"
+    },
+    "trips.txt": {
+      "columns": [
+        "route_id",
+        "service_id",
+        "trip_id",
+        "direction_id"
+      ],
+      "member": "trips.txt",
+      "name": "trips.txt",
+      "rows": [
+        {
+          "_file": "trips.txt",
+          "_line": 2,
+          "direction_id": "0",
+          "route_id": "r1",
+          "service_id": "holiday",
+          "trip_id": "t1"
+        }
+      ],
+      "sha256": "469e6eebb93628f7531861bdc85e27b67109e22a0ff05d48372cbc71e6685d07"
+    }
+  }
+}
